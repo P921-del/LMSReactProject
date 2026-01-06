@@ -1,0 +1,1 @@
+H:\ASP.netProjects\FCILibararyManagementSystemReactApp\fcilibararymanagementsystemreactapp.client\obj\Debug\fcilibararymanagementsystemreactapp.client.esproj.CoreCompileInputs.cache

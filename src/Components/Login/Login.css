@@ -1,0 +1,18 @@
+@reference "../../index.css";
+
+
+.userNameInput::placeholder {
+    color: "#99a1af"
+}
+
+.userNameInput::-moz-focus-inner {
+    outline: none;
+}
+
+.passwordInput::placeholder {
+    color: "#99a1af"
+}
+
+.passwordInput::-moz-focus-inner {
+    outline: none;
+}

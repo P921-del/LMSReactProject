@@ -1,0 +1,124 @@
+@font-face {
+  font-family: RobotoLight;
+  src: url("/public/fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: RobotoRegular;
+  src: url("/public/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: RobotoSemiBold;
+  src: url("/public/fonts/Roboto-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: RobotoBold;
+  src: url("/public/fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: NotoSansTeluguLight;
+  src: url("/public/fonts/NotoSansTelugu-Light.ttf");
+}
+
+@font-face {
+  font-family: NotoSansTeluguBold;
+  src: url("/public/fonts/NotoSansTelugu-Bold.ttf");
+}
+
+@font-face {
+  font-family: NotoSansTeluguRegular;
+  src: url("/public/fonts/NotoSansTelugu-Regular.ttf");
+}
+
+@font-face {
+  font-family: NotoSansTeluguMedium;
+  src: url("/public/fonts/NotoSansTelugu-Medium.ttf");
+}
+
+@font-face {
+  font-family: OpenSansRegular;
+  src: url("/public/fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: CormorantBoldItalic;
+  src: url("/public/fonts/Cormorant-BoldItalic.ttf");
+}
+
+@import "tailwindcss";
+@tailwind utilities;
+
+@theme {
+  --font-robotoLight: RobotoLight, "sans-serif";
+  --font-robotoRegular: RobotoRegular, "sans-serif";
+  --font-robotoSemiBold: RobotoSemiBold, "sans-serif";
+  --font-robotoBold: RobotoBold, "sans-serif";
+  --font-notoSansTeluguLight: NotoSansTeluguLight, "sans-serif";
+  --font-notoSansTeluguMedium: NotoSansTeluguMedium, "sans-serif";
+  --font-notoSansTeluguRegular: NotoSansTeluguRegular, "sans-serif";
+  --font-notoSansTeluguBold: NotoSansTeluguBold, "sans-serif";
+  --font-openSansRegular: OpenSansRegular, "sans-serif";
+  --font-cormorantBoldItalic: CormorantBoldItalic, "sans-serif";
+
+}
+
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  width: fit-content;
+  min-height: fit-content;
+  height: fit-content;
+}
+
+/*
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+*/
+
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+
+
+}
