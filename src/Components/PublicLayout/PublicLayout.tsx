@@ -83,7 +83,7 @@ function PublicLayoutContent() {
     >
       <Header />
       <Outlet />
-      {/*   <Footer /> */}
+      <Footer />
     </main>
   );
 }

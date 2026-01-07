@@ -27,42 +27,42 @@ export default function Home() {
       Name: "AhmedHossam",
       review:
         "The Library Management System has completely transformed how we manage our collections. Searching for books is now seamless, and tracking loans has never been easier. A must-have for any modern library!",
-      path: "/public/Client's_Reviews_Images/AhmedHossam.jfif",
+      path: "/Client's_Reviews_Images/AhmedHossam.jfif",
     },
     {
       id: 2,
       Name: "MohammedElAraby",
       review:
         "Our staff productivity has improved significantly since implementing this LMS. The system is intuitive, fast, and makes reporting and analytics a breeze.",
-      path: "/public/Client's_Reviews_Images/MohammedElAraby.jfif",
+      path: "/Client's_Reviews_Images/MohammedElAraby.jfif",
     },
     {
       id: 3,
       Name: "MohammedKhaled",
       review:
         "I love how this LMS integrates all our library services in one place. From issuing books to generating overdue notices, everything is automated and user-friendly.",
-      path: "/public/Client's_Reviews_Images/MohammedKhaled.jfif",
+      path: "/Client's_Reviews_Images/MohammedKhaled.jfif",
     },
     {
       id: 4,
       Name: "MohammedNabil",
       review:
         "The system has reduced manual errors and improved overall efficiency. Students and staff love the online catalog, and we get fewer complaints about missing books.",
-      path: "/public/Client's_Reviews_Images/MohammedNabil.jfif",
+      path: "/Client's_Reviews_Images/MohammedNabil.jfif",
     },
     {
       id: 5,
       Name: "OmarAhmed",
       review:
         "Fantastic support and an easy-to-use interface. The LMS helped us modernize our library without any hassle, and our patrons appreciate the digital features.",
-      path: "/public/Client's_Reviews_Images/OmarAbdelAlrahman.jpg",
+      path: "/Client's_Reviews_Images/OmarAbdelAlrahman.jpg",
     },
     {
       id: 6,
       Name: "SalahAbdelWakeal",
       review:
         "From tracking book loans to generating reports, this LMS handles everything smoothly. It's reliable, fast, and has made library management stress-free.",
-      path: "/public/Client's_Reviews_Images/SalahAbdelWakeal.jfif",
+      path: "/Client's_Reviews_Images/SalahAbdelWakeal.jfif",
     },
   ];
   const [hoverOnFounderImage, setHoverOnFounderImage] =
@@ -73,32 +73,32 @@ export default function Home() {
     {
       id: 1,
       Name: "MahmoudNagy",
-      path: "/public/Client's_Reviews_Images/AhmedHossam.jfif",
+      path: "/Client's_Reviews_Images/AhmedHossam.jfif",
     },
     {
       id: 2,
       Name: "OmarKaram",
-      path: "/public/Client's_Reviews_Images/MohammedElAraby.jfif",
+      path: "/Client's_Reviews_Images/MohammedElAraby.jfif",
     },
     {
       id: 3,
       Name: "MohammedKhaled",
-      path: "/public/Client's_Reviews_Images/MohammedKhaled.jfif",
+      path: "/Client's_Reviews_Images/MohammedKhaled.jfif",
     },
     {
       id: 4,
       Name: "AmrNourEldeen",
-      path: "/public/Client's_Reviews_Images/Amr Nour eldeen.jfif",
+      path: "/Client's_Reviews_Images/Amr Nour eldeen.jfif",
     },
     {
       id: 5,
       Name: "OmarEzz",
-      path: "/public/Client's_Reviews_Images/OmarAbdelAlrahman.jpg",
+      path: "/Client's_Reviews_Images/OmarAbdelAlrahman.jpg",
     },
     {
       id: 6,
       Name: "SalahAbdelWakeal",
-      path: "/public/Client's_Reviews_Images/SalahAbdelWakeal.jfif",
+      path: "/Client's_Reviews_Images/SalahAbdelWakeal.jfif",
     },
   ];
   const [openNavForMobileDesign, setOpenNavForMobileDesign] =
@@ -396,7 +396,7 @@ export default function Home() {
                   </section>
                   <p className="px-3">{item.review}</p>
                   <section className="flex justify-center items-center md:mt-2 lg:mt-5">
-                    <div className="flex flex-row justify-center items-center gap-x-2 text-lg bg-[#f3f5f2] border-2 border-black w-1/3 md:w-1/2 lg:w-1/3 rounded-md h-10">
+                    <div className="flex flex-row justify-center items-center gap-x-2 text-lg bg-[#f3f5f2] border-2 border-black px-[3%] w-1/3 md:w-1/2 lg:w-1/3 rounded-md h-10">
                       <BiSolidStar className="text-yellow-400" />
                       <BiSolidStar className="text-yellow-400" />
                       <BiSolidStar className="text-yellow-400" />
