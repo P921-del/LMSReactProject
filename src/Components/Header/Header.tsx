@@ -45,7 +45,7 @@ function Header() {
           >
             <img
               onClick={() => navigate("/")}
-              src="/public/online-library.png"
+              src="/online-library.png"
               alt="project-icon"
               width={64}
               height={64}
